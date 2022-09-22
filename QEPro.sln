@@ -3,12 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEProIO", "QEProIO.csproj", "{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QEProIO", "QEProIO.csproj", "{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QEProGUI", "..\QEProGUI\QEProGUI.csproj", "{1DA16573-ED59-4586-AF6D-9F13039842C4}"
-	ProjectSection(ProjectDependencies) = postProject
-		{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3} = {7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinesisIO", "KinesisIO\KinesisIO.csproj", "{D013D1CC-F329-4471-8BB5-C188250D7E21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QEProGUI", "QEProGUI\QEProGUI.csproj", "{4D167A11-B585-4993-A996-EA73FD9BE631}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,10 +19,14 @@ Global
 		{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B64B25C-4E53-4BBC-9751-F89E59D5FDB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DA16573-ED59-4586-AF6D-9F13039842C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DA16573-ED59-4586-AF6D-9F13039842C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DA16573-ED59-4586-AF6D-9F13039842C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DA16573-ED59-4586-AF6D-9F13039842C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D013D1CC-F329-4471-8BB5-C188250D7E21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D013D1CC-F329-4471-8BB5-C188250D7E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D013D1CC-F329-4471-8BB5-C188250D7E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D013D1CC-F329-4471-8BB5-C188250D7E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D167A11-B585-4993-A996-EA73FD9BE631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D167A11-B585-4993-A996-EA73FD9BE631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D167A11-B585-4993-A996-EA73FD9BE631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D167A11-B585-4993-A996-EA73FD9BE631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

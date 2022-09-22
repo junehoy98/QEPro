@@ -2,9 +2,9 @@
 
 // test
 
-namespace Program
+namespace QEProIO
 {
-    class Program
+    class QEProIOMaster
     {
         static void Main(string[] args)
         {

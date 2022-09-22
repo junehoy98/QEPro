@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="KinesisIO\**" />
+    <Compile Remove="QEProGUI\**" />
+    <EmbeddedResource Remove="KinesisIO\**" />
+    <EmbeddedResource Remove="QEProGUI\**" />
+    <None Remove="KinesisIO\**" />
+    <None Remove="QEProGUI\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="NETOmniDriver-NET40">
       <HintPath>..\..\..\..\..\Program Files\Ocean Optics\OmniDriverSPAM\OOI_HOME\NETOmniDriver-NET40.dll</HintPath>
     </Reference>
